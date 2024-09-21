@@ -30,8 +30,8 @@ const romanSymbols = [
 		while(num >= value) {
 			res += symbol;
 			num -= value;
-			
 		}
+		if(num === 0) break;
 	}
 	return res;
 	
